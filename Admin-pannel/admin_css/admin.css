@@ -1,0 +1,63 @@
+.AdminNavigation a{
+    text-decoration: none !important;
+    color: white !important;
+}
+.AdminNavigation li{
+    width: 10cm;
+    background-color: #1d2228;
+    padding: 10px;
+    margin-top: 10px;
+}
+.AdminNavigation li:hover{
+    background-color: #8da242;
+}
+.categoryPage input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #1d2228;
+    padding: 10px;
+}
+.categoryPage button{
+    border: none;
+    outline: none;
+    background-color: #8da242;
+    color: #1d2228;
+    padding: 10px;
+}
+.dashboard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dashboard>div{
+    padding: 10px;
+    margin: 5px;
+    width: 6cm;
+    background-color: #d7dfb9;
+}
+.adminLoginContainer{
+    background-color: rgb(235, 235, 235) !important;
+}
+.categoryTable{
+    margin: 10px 0px;
+    width: 50%;
+}
+.categoryTable th{
+    background-color: #8da242;
+}
+.categoryTable td{
+    padding: 5px;
+    border-bottom: 1px solid #d7dfb9;
+}
+.categoryTable button{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    outline: none;
+}
+@media(max-width:600px) {
+    .AdminNavigation li{
+        width: 8cm;
+    }
+    
+}
